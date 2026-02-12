@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Mehal Jivraj</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 🎂 BIRTHDAY INTRO SCREEN -->
+<div id="intro" class="screen active">
+  <div class="birthday-content">
+    <h1>🎉 Happy Birthday 🎉</h1>
+    <h2>Mehal Jivraj</h2>
+    <button onclick="startStory()">Enter Your Surprise 💖</button>
+  </div>
+
+  <!-- Balloons -->
+  <div class="balloons">
+    <div class="balloon red"></div>
+    <div class="balloon blue"></div>
+    <div class="balloon yellow"></div>
+    <div class="balloon pink"></div>
+    <div class="balloon purple"></div>
+  </div>
+</div>
+
+<!-- 💖 STORY SCREEN -->
+<div id="story" class="screen">
+  <img id="photo" src="">
+  <div class="quote-box">
+    <p class="names">Mehal Jivraj</p>
+    <p id="quote"></p>
+  </div>
+  <button class="next-btn" onclick="nextSlide()">Next 💞</button>
+</div>
+
+<!-- 💌 ENDING SCREEN -->
+<div id="ending" class="screen">
+  <h1>You are my always 💖</h1>
+  <p>Forever yours.</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
